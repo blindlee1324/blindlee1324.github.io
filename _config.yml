@@ -1,21 +1,30 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+safe: false
 
-# Site settings
-title: Life's AWESOME
-email: aldltekd@naver.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: ya_doka_ri
-github_username:  blindlee1324
-
-# Build settings
+# build settings
 markdown: kramdown
+highlighter: rouge
+lsi: false
+permalink: /:title
+
+title: "Your Name"
+description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+baseurl: ""
+url: "http://himsel.me" # replace by your site's url
+twitter_username: your-name
+github_username:  lukas-h # (your name)
+accent: "#f7f7e6" # accent color for blog column
+
+author: "Your Name"
+address: "Your Street, <br>Your City, Country"
+email: "your@email.com"
+
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# language settings
+isolang: en
+
+# exclude files
+exclude:
+  - LICENSE
+  - README.md
